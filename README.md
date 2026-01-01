@@ -60,5 +60,6 @@ This portfolio website functions as:
 
 ## License
 
-This project is provided for reference and evaluation purposes.  
-Reuse or redistribution may be subject to licensing terms defined by the author.
+The source code of this project is licensed under the MIT License.
+
+All visual assets, branding, logos, and design elements are excluded from this license and remain the intellectual property of the author unless explicitly stated otherwise.
