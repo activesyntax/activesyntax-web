@@ -10,9 +10,11 @@
           Get in touch and let’s build something great together.
         </p>
 
-        <p><a href="mailto:contact@activesyntax.net" target="_blank"><i
-              class="bi bi-envelope me-3"></i>contact@activesyntax.net</a></p>
-        <p><i class="bi bi-telephone me-3"></i>+36 30 842 3553</p>
+
+        <p><a [href]="'mailto:' + user() + '@' + domain()" target="_blank"><i class="bi bi-envelope me-3"></i>{{ user()
+            }}@{{ domain() }}
+          </a></p>
+        <p><a href="tel:+36308423553"><i class="bi bi-telephone me-3"></i>+36 30 842 3553</a></p>
         <p><a href="http://www.facebook.com/activesyntax" target="_blank" class=""><i
               class="bi bi-facebook me-3"></i>facebook.com/activesyntax</a></p>
         <p>
