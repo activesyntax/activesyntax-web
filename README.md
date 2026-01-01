@@ -1,5 +1,7 @@
 # Active Syntax – Portfolio Website
 
+public/assets/img/active-syntax-web-screenshot-01.png
+
 ## Overview
 
 This repository contains the source code of the **Active Syntax** portfolio website.  
