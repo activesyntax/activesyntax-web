@@ -1,5 +1,3 @@
-# Active Syntax – Portfolio Website
-
 ![Active Syntax Portfolio Screenshot](public/assets/img/active-syntax-web-screenshot-01.png)
 
 ## Overview
