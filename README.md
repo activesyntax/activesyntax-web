@@ -1,4 +1,4 @@
-![Active Syntax Portfolio Screenshot](public/assets/img/active-syntax-web-screenshot-01.png)
+![Active Syntax Portfolio Screenshot](screenshots/active-syntax-web-screenshot-01.png)
 
 ## Overview
 
