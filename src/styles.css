@@ -1,21 +1,15 @@
 html {
   scroll-padding-top: 50px;
-  /* adjust to your navbar height */
 }
 
 body {
   font-family: var(--primary-font);
-  /* font-family: "Arvo", serif; */
-  /* font-family: "Hepta Slab", serif; */
-  /* font-family: "IBM Plex Sans", sans-serif; */
-
   font-size: var(--defalut-font-size);
   background: var(--primary-background);
   color: var(--long-text-color);
   font-size: var(--defalut-font-size);
   font-optical-sizing: auto;
 }
-
 
 h1,
 h2,
@@ -27,7 +21,6 @@ h5 {
 
 .lead {
   color: var(--highlight-text-color);
-  /* font-size: var(--larger-font-size); */
 }
 
 a {
@@ -48,10 +41,8 @@ a.inline-link {
 }
 
 a.inline-link:hover {
-
   border-bottom: 1px solid var(--primary-color);
 }
-
 
 .section-title {
   font-size: 36pt;
@@ -71,7 +62,6 @@ a.inline-link:hover {
   top: -0.15em;
 }
 
-
 .decor-divider {
   height: 2px;
   background: var(--primary-color);
@@ -86,7 +76,6 @@ a.inline-link:hover {
   display: inline-block;
 }
 
-
 .btn-primary {
   background: var(--primary-btn-background-color);
   border: none;
@@ -94,18 +83,15 @@ a.inline-link:hover {
   ;
 }
 
-
 .btn-primary:hover {
   background: var(--primary-hover-color);
 }
 
-/* Button */
 .btn-secondary {
   background: var(--secondary-btn-background-color);
   border: none;
   color: var(--highlight-text-color);
 }
-
 
 .btn-secondary:hover {
   background: var(--secondary-hover-color);
@@ -115,7 +101,6 @@ a.inline-link:hover {
   color: var(--highlight-text-color);
   border-color: var(--highlight-text-color);
 }
-
 
 .tech-stack {
   margin: 20px 0;
