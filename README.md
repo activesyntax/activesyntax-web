@@ -1,4 +1,4 @@
-https://github.com/activesyntax/activesyntax-web/blob/main/public/assets/img/active-syntax-web-screenshot-01.png
+![Active Syntax Portfolio Screenshot](public/assets/img/active-syntax-web-screenshot-01.png)
 
 ## Overview
 
