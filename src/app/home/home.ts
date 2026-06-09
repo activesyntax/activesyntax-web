@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { Services } from './services/services';
 import { Hero } from './hero/hero';
 import { References } from './references/references';
@@ -9,6 +9,7 @@ import { Contact } from './contact/contact';
   selector: 'app-home',
   imports: [Services, Hero, References, Experience, Contact],
   templateUrl: './home.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './home.css',
 })
 export class Home {

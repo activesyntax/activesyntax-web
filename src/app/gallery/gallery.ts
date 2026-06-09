@@ -5,7 +5,8 @@ import {
   input,
   computed,
   ViewChild,
-  ElementRef
+  ElementRef,
+  ChangeDetectionStrategy
 } from '@angular/core';
 import PhotoSwipeLightbox from 'photoswipe/lightbox';
 
@@ -19,6 +20,7 @@ export interface GalleryImage {
 @Component({
   selector: 'app-gallery',
   standalone: true,
+  changeDetection: ChangeDetectionStrategy.Eager,
   templateUrl: './gallery.html'
 })
 export class Gallery implements AfterViewInit {

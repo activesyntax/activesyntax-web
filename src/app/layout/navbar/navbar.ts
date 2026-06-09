@@ -1,10 +1,11 @@
-import { Component, AfterViewInit, signal } from '@angular/core';
+import { Component, AfterViewInit, signal, ChangeDetectionStrategy } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './navbar.css'
 })
 export class Navbar implements AfterViewInit {

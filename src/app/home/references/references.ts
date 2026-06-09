@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import {Gallery} from '../../gallery/gallery'
 
 
@@ -6,6 +6,7 @@ import {Gallery} from '../../gallery/gallery'
   selector: 'app-home-references',
   imports: [Gallery],
   templateUrl: './references.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './references.css',
 })
 export class References {
