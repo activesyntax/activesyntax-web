@@ -8,6 +8,6 @@ import { Component, signal, ChangeDetectionStrategy } from '@angular/core';
   styleUrl: './contact.css',
 })
 export class Contact {
-  user = signal('contact');
+  user = signal('codemaster');
   domain = signal('activesyntax.net');
 }

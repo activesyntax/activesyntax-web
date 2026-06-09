@@ -11,9 +11,9 @@ import { filter } from 'rxjs/operators';
 export class Navbar implements AfterViewInit {
 
   activeSection = signal<string | null>(null);
-  sections = ['hero', 'services', 'references', 'experience', 'contact'];
+  sections = ['hero', 'services', 'projects', 'experience', 'contact'];
 
-  constructor(private router: Router) {}
+  constructor(private router: Router) { }
 
   ngAfterViewInit() {
     // Wait for home component to be loaded into the DOM
